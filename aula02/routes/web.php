@@ -10,6 +10,6 @@ Route::get('/nova', function () {
     return view('nova');
 });
 
-
-
-
+Route::get('/users/{param}/{paramii}', function ($param, $paramii) {
+    return $param. '_'. $paramii;
+});
