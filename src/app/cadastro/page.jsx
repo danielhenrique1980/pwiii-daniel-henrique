@@ -1,3 +1,4 @@
+//src/app/cadastro/page.jsx
 import CadastroForm from '../../Components/CadastroForm';
 
 const CadastroPage = () => {
